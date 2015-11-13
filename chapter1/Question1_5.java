@@ -8,6 +8,7 @@ public class Question1_5 {
 	public static void main(String[] args) {
 		// String str = compressA(args[0]);
 		// System.out.println(str);
+        
 		String str = compressB(args[0]);
 		System.out.println(str);
 	}
