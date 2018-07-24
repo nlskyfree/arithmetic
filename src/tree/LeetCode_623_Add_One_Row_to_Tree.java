@@ -62,7 +62,7 @@ package tree;
 * 思路：遍历找到第n-1层的节点，插入左右子树，将原来的左右子树接到新的左右子树上即可
 * @author 倪路
 */
-public class LeetCode_Add_One_Row_to_Tree {
+public class LeetCode_623_Add_One_Row_to_Tree {
     public TreeNode addOneRow(TreeNode root, int v, int d) {
         if(d == 1) {
             TreeNode temp = new TreeNode(v);

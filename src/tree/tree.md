@@ -18,6 +18,7 @@
 后序遍历和中序遍历可以唯一确定一棵树
 前序遍历和后序遍历不能唯一确定一棵树
 
+
 基本操作：
 前中后层序遍历
 两种遍历结果组合中整个树
@@ -46,3 +47,6 @@ BST可增加虚拟节点，统一操作，虚拟节点也满足BST
 自底向上思考
 LeetCode_124_Binary_Tree_Maximum_Path_Sum
 LeetCode_687_Longest_Univalue_Path
+
+序列化一棵树的时候，必须选择前序或后序遍历，中序遍历会出现混淆的情况
+LeetCode_652_Find_Duplicate_Subtrees
