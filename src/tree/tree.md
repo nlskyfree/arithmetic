@@ -47,6 +47,10 @@ BST可增加虚拟节点，统一操作，虚拟节点也满足BST
 自底向上思考
 LeetCode_124_Binary_Tree_Maximum_Path_Sum
 LeetCode_687_Longest_Univalue_Path
+LeetCode_865_Smallest_Subtree_with_all_the_Deepest_Nodes
 
 序列化一棵树的时候，必须选择前序或后序遍历，中序遍历会出现混淆的情况
 LeetCode_652_Find_Duplicate_Subtrees
+
+有回溯需求，必须建立额外的数据结构，如遍历树的时候，还有以下情况
+LeetCode_863_All_Nodes_Distance_K_in_Binary_Tree
